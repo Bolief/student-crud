@@ -1,5 +1,5 @@
 <?php
-require_once "";
+require_once "db.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = filter_input(INPUT_POST, "name");

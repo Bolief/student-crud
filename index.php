@@ -1,5 +1,5 @@
 <?php
-require_once "";
+require_once "db.php";
 include "includes/header.php";
 include "includes/nav.php";
 

@@ -1,5 +1,5 @@
 <?php
-require_once "";
+require_once "db.php";
 
 $id = filter_input(INPUT_GET, "id", FILTER_VALIDATE_INT);
 
@@ -11,6 +11,6 @@ if ($id) {
     $statement->closeCursor();
 }
 
-header("");
+header("Location: index.php");
 exit();
 ?>
