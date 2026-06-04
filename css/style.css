@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #222;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background: #003366;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
